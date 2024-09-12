@@ -2,10 +2,9 @@
   "name": "psychic-octo-web",
   "version": "1.0.0",
   "description": "AI-driven web platform with modular structure.",
-  "main": "deepdive/server_logic/index.js",
   "scripts": {
-    "start": "node deepdive/server_logic/index.js",
-    "build": "echo 'Building the Psychic-Octo-Web project'",
+    "start": "next start",
+    "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
     "test": "jest"
