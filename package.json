@@ -1,0 +1,39 @@
+{
+  "name": "psychic-octo-web",
+  "version": "1.0.0",
+  "description": "AI-driven web platform with modular structure.",
+  "main": "deepdive/server_logic/index.js",
+  "scripts": {
+    "start": "node deepdive/server_logic/index.js",
+    "build": "echo 'Building the Psychic-Octo-Web project'",
+    "dev": "next dev",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "ai": "^3.3.28",
+    "mongodb": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
+
+
