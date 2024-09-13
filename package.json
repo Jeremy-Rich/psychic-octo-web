@@ -15,14 +15,18 @@
   "license": "ISC",
   "dependencies": {
     "ai": "^3.3.35",
+    "express": "^4.21.0",
     "mongodb": "latest",
     "next": "latest",
     "react": "latest"
   },
   "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
     "eslint": "^9.10.0",
     "husky": "^9.1.5",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.2.10",
+    "typescript": "^5.6.2"
   },
   "husky": {
     "hooks": {
