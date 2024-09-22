@@ -14,17 +14,25 @@
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "ai": "^3.3.35",
+    "ai": "^3.4.0",
     "express": "^4.21.0",
-    "mongodb": "latest",
-    "next": "latest",
-    "react": "latest"
+    "ip": "^2.0.1",
+    "mongodb": "^6.9.0",
+    "next": "^14.2.13",
+    "path-to-regexp": "^8.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "semver": "^7.6.3",
+    "undici": "^6.19.8",
+    "uuid": "^10.0.0",
+    "vercel": "^37.5.3",
+    "vm2": "^3.9.19"
   },
   "devDependencies": {
-    "@types/node": "^22.5.4",
-    "@types/react": "^18.3.5",
-    "eslint": "^9.10.0",
-    "husky": "^9.1.5",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.8",
+    "eslint": "^9.11.0",
+    "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "typescript": "^5.6.2"
   },
@@ -37,6 +45,18 @@
     "*.js": [
       "eslint --fix",
       "git add"
+    ],
+    "*.ts": [
+      "eslint --fix",
+      "git add"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremy-rich/psychic-octo-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremy-rich/psychic-octo-web/issues"
+  },
+  "homepage": "https://github.com/jeremy-rich/psychic-octo-web#readme"
 }
